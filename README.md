@@ -4,7 +4,7 @@ Este é um projeto de aplicação web que utiliza React, TypeScript e Vite. A ap
 
 ## Pré-requisitos
 
-Antes de começar, certifique-se de ter o Node.js e o npm instalados em sua máquina.
+Antes de começar, certifique-se de ter o Node.js e o npm, yarn ou bun instalados em sua máquina.
 
 ## Configuração do Projeto
 
@@ -13,20 +13,20 @@ Antes de começar, certifique-se de ter o Node.js e o npm instalados em sua máq
 2. Instale as dependências do projeto. No diretório raiz do projeto, execute o seguinte comando:
 
 ```sh
-npm install
+bun install
 ```
 
-1. Configure as variáveis de ambiente no arquivo [`.env`](.env) conforme necessário.
+3. Configure as variáveis de ambiente no arquivo [`.env`](.env) conforme necessário.
 
 ## Executando a Aplicação
 
 Para iniciar a aplicação em modo de desenvolvimento, execute o seguinte comando:
 
 ```sh
-npm run dev
+bun run dev
 ```
 
-A aplicação estará disponível em `http://localhost:3000`.
+A aplicação estará disponível em `http://localhost:5173`.
 
 ## Estrutura do Projeto
 
@@ -44,7 +44,7 @@ A aplicação estará disponível em `http://localhost:3000`.
 Para buildar a aplicação para produção, use o seguinte comando:
 
 ```sh
-npm run build
+bun run build
 ```
 
 O código de produção estará disponível no diretório [`dist/`](dist/).
